@@ -27,12 +27,12 @@ const [numeroClicks, setNumeroCliks] = useState(0);
         <Contador numeroClicks={numeroClicks} />
 
         <Boton
-          texto={'click'}
+          texto={'Click'}
           botonClick={true}
           eventClick={hacerClick}
         />
         <Boton
-          texto={'reiniciar'}
+          texto={'Reiniciar'}
           botonClick={false}
           eventClick={reiniciarCont}
         />
