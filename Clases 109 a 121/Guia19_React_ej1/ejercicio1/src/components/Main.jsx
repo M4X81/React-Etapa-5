@@ -3,11 +3,13 @@ import React from 'react'
 
 export default function Main() {
   return (
-    <div>
-        <h1>Este es el main 1</h1>
-     {/*<Hijo nombre="Chiquito" />(esto es del ej3)
-      <Hijo nombre="Filomena" />*/}
-      
-    </div>
-  )
+   
+    {/*<div>    
+      <Hijo nombre="Chiquito" />(esto es del ej3)
+      <Hijo nombre="Filomena" />
+    </div>*/},
+     <div className="m1">
+     <h1>Este es el main 1</h1>
+   </div>
+  );
 }
